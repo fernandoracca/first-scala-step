@@ -12,6 +12,11 @@ It provides:
      Eclipse
      IntelliJ IDEA
 
+Use
+---------------
+Clone and update the project name from build.sbt
+
+
 Requires
 ---------------
 
