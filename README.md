@@ -16,6 +16,16 @@ Use
 ---------------
 Clone and update the project name from build.sbt
 
+    git clone git://github.com/fractal/first-scala-step.git my-project
+    cd my-project
+    vi build-sbt # change name to my-project
+    sbt
+    test
+    eclipse
+    gen-idea
+    
+
+If using idea I recommend to set the FSC compiler in the project config. Requires Latest IDEA 10.5.2 and Scala and SBT plugin (will only work with latest SBT)
 
 Requires
 ---------------
