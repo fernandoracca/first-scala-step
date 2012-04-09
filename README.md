@@ -10,6 +10,7 @@ It provides:
      Mockito 1.9
      IntelliJ IDEA
      Scala-IDE 2.0
+     [SBT-man][https://github.com/sbt/sbt-man] - Extremely handy Scaladoc info from your shell! 
 
 Use
 ---------------
