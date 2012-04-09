@@ -10,7 +10,7 @@ It provides:
      Mockito 1.9
      IntelliJ IDEA
      Scala-IDE 2.0
-     [SBT-man][https://github.com/sbt/sbt-man] - Extremely handy Scaladoc info from your shell! 
+     [SBT-man](https://github.com/sbt/sbt-man) - Extremely handy Scaladoc info from your shell! 
 
 Use
 ---------------
@@ -23,11 +23,12 @@ Clone and update the project name from build.sbt
     test
     gen-idea
     eclipse
-    
-
-If using idea I recommend to set the FSC compiler in the project config. Recommends Latest IDEA 11.1+ and Scala and SBT plugin 
 
 Requires
 ---------------
+* [sba 0.11.2](https://github.com/harrah/xsbt/wiki) (does not work/compile with sbt 0.10.0) or earlier.
 
-* [sbt](https://github.com/harrah/xsbt/wiki) 0.11.2 (does not work/compile with sbt 0.10.0) or earlier.
+Recommends
+---------------
+* Latest IDEA 11.1+ and Scala and SBT plugin
+* Set the FSC compiler in the project config
