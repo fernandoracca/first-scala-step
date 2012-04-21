@@ -32,3 +32,5 @@ Recommends
 ---------------
 * Latest IDEA 11.1+ and Scala and SBT plugin. Set the FSC compiler in the project config
 * Latest [Scala IDE 2.1 M1+](http://scala-ide.org/download/milestone.html#scala_ide_21_milestone_1). Works great out of the box. 
+* Read [sbt eclipse](https://github.com/typesafehub/sbteclipse/wiki/Using-sbteclipse) for more details.
+* Spec Tests require JUnit runner to run in Eclipse until a plugin is built. See [Specs2 + JUnit](http://etorreborre.github.com/specs2/guide/org.specs2.guide.Runners.html#Via+JUnit)
