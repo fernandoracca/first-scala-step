@@ -1,11 +1,10 @@
 package uk.co.xtrade.acceptance
 
 import org.specs2._
+import org.junit.runner._
+import runner._
 
-/**
- * Dev: Fernando Racca (fracca@gmail.com)
- * Creation Date: 06/04/2011 22:32
- */
+@RunWith(classOf[JUnitRunner])
 class SimpleSpec extends Specification { def is =
 
     "This is a specification to check the 'Hello world' string"                 ^

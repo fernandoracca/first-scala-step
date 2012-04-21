@@ -2,7 +2,10 @@ package uk.co.xtrade.acceptance
 
 import org.specs2._
 import org.specs2.mock._
+import org.junit.runner._
+import runner._
 
+@RunWith(classOf[JUnitRunner])
 class SimpleMockitoSpec  extends Specification { def is =
 
      "A java list can be mocked"                                                    ^

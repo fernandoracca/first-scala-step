@@ -1,7 +1,10 @@
 package uk.co.xtrade.acceptance
 
 import org.specs2._
+import org.junit.runner._
+import runner._
 
+@RunWith(classOf[JUnitRunner])
 class BookSellerSpec extends Specification   {   def is =
 	  // the execution needs to be sequential
   sequential                                                                                       ^

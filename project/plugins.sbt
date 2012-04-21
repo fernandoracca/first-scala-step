@@ -1,4 +1,4 @@
-olvers ++= Seq(
+resolvers ++= Seq(
         Classpaths.typesafeResolver,
         "sbt-idea-repo" at "http://mpeltonen.github.com/maven/",
         Resolver.url("sbt-plugin-releases", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)
